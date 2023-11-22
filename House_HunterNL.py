@@ -14,10 +14,8 @@ links = []
 #Can be changed but needs to be always in this format
 location = "den haag"
 location = location.lower().replace(" ", "-")
-budget = "1500"
-# input("What is the max. value you want to pay: ")
-distance = "1"
-# (input("Maximum distance from center: ")) + 'km'
+budget = input("What is the max. value you want to pay: ")
+distance = (input("Maximum distance from center: ")) + 'km'
 
 ###########################KAMERNET#######################
 k_url = 'https://kamernet.nl/en/for-rent/rooms-' + location  
